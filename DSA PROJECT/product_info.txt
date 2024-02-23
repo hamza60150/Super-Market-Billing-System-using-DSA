@@ -1,0 +1,6 @@
+101 Apples 12.5 25
+102 Banana 8.75 50
+103 Mangoes 30.2 15
+105 Pepsi 18.9 30
+106 CocaCola 7.25 20
+107 lays chips 25 96
