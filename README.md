@@ -1,5 +1,5 @@
 # Super-Market-Billing-System-using-DSA
-The Supermarket Management System in C++ organizes product details using linked lists. Admins manage products; customers view and order items.
+
 Abstract: 
 The Supermarket Management System is a C++ program designed to facilitate the management of product information and customer interactions in a supermarket setting. The program utilizes a linked list data structure to store information about various products, including their code, name, price, and quantity. The system supports two user roles: an administrator with privileged access to manage product information and a customer with the ability to view the product list and place orders. 
 Product Management: 
