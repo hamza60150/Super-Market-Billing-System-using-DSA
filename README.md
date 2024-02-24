@@ -15,9 +15,11 @@ The program calculates the total price, considering a discount for regular custo
 To access administrator features, users must enter a password ("hamza123"). Admin actions include displaying the product list, adding products, changing prices, deleting products, updating quantities, saving to file, and exiting the admin menu. 
  
 User-Friendly Menus: 
+
 The program features clear and intuitive menus for both administrators and customers, guiding users through available options. 
 
 Introduction: 
+
 The provided C++ program is an implementation of a Supermarket Management System, designed to efficiently manage product information, facilitate customer interactions, and allow administrative actions. The system incorporates a linked list data structure to store information about various products, such as their code, name, price, and quantity. It provides both an admin menu and a customer menu, catering to the distinct needs of administrators and customers within a supermarket setting. 
 The program begins by defining a `Product` structure representing individual products, and a `ProductList` class to manage a linked list of these products. The linked list enables dynamic and flexible product management. The admin functionalities include displaying the product list, adding new products, updating prices, deleting products, saving product information to a file, and updating product quantities.  
 For customer interactions, the system prompts the user to enter a product code and quantity, determining the total price considering potential discounts for regular customers. The program efficiently handles various scenarios, such as invalid product codes, insufficient product quantities, and incorrect input from the user. 
@@ -25,15 +27,22 @@ The admin menu requires a password for access, and upon successful authenticatio
 The main function serves as the entry point of the program, offering users the choice between accessing the admin menu or the customer menu. The system gracefully handles different user inputs and provides a seamless experience for both administrators and customers. Overall, this Supermarket Management System demonstrates effective organization, modularity, and user-friendly design, making it a valuable tool for managing supermarket operations. 
 
 Problem Statement: 
+
 We developed a Supermarket Management System program that enables both administrators and customers to interact with the supermarket's product inventory. The program incorporates functionalities such as adding, updating, and deleting product information, as well as allowing customers to place orders. The system is menu-driven, offering distinct options for administrators and customers. 
+
 Product Management: 
+
 Administrators can view, add, modify prices, and delete products from the inventory. Products are represented as a linked list, with each node containing information like code, name, price, and quantity. File Handling: 
 The program supports loading product information from a file at the start and saving it back to the file after any modifications. 
 The default filename for storing product information is "product_info.txt". 
+
 Customer Interaction: 
+
 Customers can view the product list and place orders by entering the product code, quantity, and indicating whether they are regular customers. 
 The total price for the order is calculated, considering a discount for regular customers. 
+
 User Authentication: 
+
 Access to the administrator menu is password-protected to ensure security. 
 The admin password is hardcoded in the program as "hamza123". Menu-Driven Interface: 
 The program provides a clear and structured menu for both administrators and customers, making it user-friendly. Flexibility: 
